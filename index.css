@@ -1,0 +1,105 @@
+.svg-container {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d3dff0;
+    border-radius: 8px;
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    padding-left: 28px;
+    padding-top: 88px;
+
+
+}
+
+
+.text {
+    position: absolute;
+    top: -3%;
+    left: 5%;
+    font-size: 14px;
+}
+
+.legend-tip {
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    transform: translate(-5%, 20%);
+    background-color: #f6fbfe;
+    border: 1.8px solid rgb(127, 172, 226);
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.pdf-container {
+    position: absolute;
+    top: 25%;
+    left: -25%;
+    transform: translate(540%, 100%);
+    border: 1px solid #d3dff0;
+    border-radius: 8px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    padding-left: 8px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center
+}
+
+.pdf-icon {
+    fill: rgb(47, 40, 193);
+    transform: translate(-5%, 20%);
+    background-color: #f6fbfe;
+    border: 1.8px solid rgb(127, 172, 226);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+body {
+    background-color: #f9f9f4;
+    font-family: 'Satoshi-Regular', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('Satoshi-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('Satoshi-Bold.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'Satoshi-Bold', sans-serif;
+}
+
+h2 {
+    font-family: 'Satoshi-Bold', sans-serif;
+}
+
+h3 {
+    font-family: 'Satoshi-Bold', sans-serif;
+}
+
+p {
+    font-family: 'Satoshi-Regular', sans-serif;
+}
+
+text {
+    font-family: 'Satoshi-Regular', sans-serif;
+}
+
+
+;

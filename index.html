@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Ade Obayomi Final Draft</title>
+    <script src="d3.min.js"></script>
+</head>
+
+<body>
+    <div id="container" style="margin: 0 auto">
+        <div id="canvas"></div>
+        <h1 style="text-align:center">Does the weather, my mood & Manchester United's form have an impact on my Youtube
+            consumption?</h1>
+
+        <p>It was my hypothesis that on days where Manchester United played a game and won, would also be days where my
+            Youtube consumption and my mood would be at its peak.</p>
+
+        <p>I chose to use a scatterplot to visualize this data
+            because I thought it would be easier to see how the correlative data being collected can lead to different
+            trends in my Youtube consumption. Currently I feel the vizualation tells a story as I can draw a couple of
+            conclusions from the scatterplot but I feel it doesn't full support my
+            my hypothesis but there is some correlation. I also added external factors that could affect my mood such as
+            the ups and downs of the job search to tell the full stories of certain days where an expected outcome ended
+            up being the totally opposite.</p>
+
+        <p>Some external resources I used to make my vizualization more interactive but really more contextual for some
+            data that can't be represent on the scatterplot. The tooltip interaction was the
+            added through a lot of trial and error but I found two useful resources from
+            a <a target="_blank" href="https://www.pluralsight.com/guides/create-tooltips-in-d3js">Pluralsight</a>
+            blogpost and an
+            article on <a target="_blank"
+                href="https://stackoverflow.com/questions/11462029/adding-a-title-attribute-to-svgg-element-in-d3-js">Stackoverflow</a>.
+        </p>
+
+
+        <div class="svg-container">
+            <div class="text">
+                <h2>Legend</h2>
+
+            </div>
+
+            <svg width="400" height="400"></svg>
+            <div class="legend-tip">Tip 💡: Hover over circles for more context in the data</div>
+        </div>
+
+
+        <div class="pdf-container">
+            <div class="pdf-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="pdf-icon" viewBox="0 0 32 32">
+                    <path fill-rule="evenodd"
+                        d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z" />
+                </svg>
+                <div class="pdf-text">
+                    <p>Data Collection PDF</p>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

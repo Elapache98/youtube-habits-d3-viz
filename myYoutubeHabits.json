@@ -1,0 +1,370 @@
+[
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 10,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 11th 2023",
+        "avgTemp": "41°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 237,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "February 12th 2023",
+        "avgTemp": "45°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 90,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 13th 2023",
+        "avgTemp": "41°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 214,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 14th 2023",
+        "avgTemp": "45°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 102,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 15th 2023",
+        "avgTemp": "52°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 165,
+        "manchesterUnitedWon": "Lost",
+        "eventDate": "February 16th 2023",
+        "avgTemp": "59°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 100,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 17th 2023",
+        "avgTemp": "55°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 39,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 18th 2023",
+        "avgTemp": "41°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 60,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "February 19th 2023",
+        "avgTemp": "43°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 128,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 20th 2023",
+        "avgTemp": "55°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 135,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 21st 2023",
+        "avgTemp": "39°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 62,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 22nd 2023",
+        "avgTemp": "41°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 1,
+        "yMinutesOnYoutube": 113,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "February 23rd 2023",
+        "avgTemp": "34°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 140,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 24th 2023",
+        "avgTemp": "34°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 176,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 25th 2023",
+        "avgTemp": "21°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 5,
+        "yMinutesOnYoutube": 127,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "February 26th 2023",
+        "avgTemp": "37°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 114,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 27th 2023",
+        "avgTemp": "32°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 44,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "February 28th 2023",
+        "avgTemp": "36°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 5,
+        "yMinutesOnYoutube": 82,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "March 1st 2023",
+        "avgTemp": "55°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 54,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 2nd 2023",
+        "avgTemp": "34°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 141,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 3rd 2023",
+        "avgTemp": "50°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 5,
+        "yMinutesOnYoutube": 192,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 4th 2023",
+        "avgTemp": "34°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 46,
+        "manchesterUnitedWon": "Lost",
+        "eventDate": "March 5th 2023",
+        "avgTemp": "45°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 105,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 6th 2023",
+        "avgTemp": "37°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 13,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 7th 2023",
+        "avgTemp": "43°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 205,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 8th 2023",
+        "avgTemp": "32°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 1,
+        "yMinutesOnYoutube": 58,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "March 9th 2023",
+        "avgTemp": "50°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 110,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 10th 2023",
+        "avgTemp": "34°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 157,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 11th 2023",
+        "avgTemp": "57°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 46,
+        "manchesterUnitedWon": "Lost",
+        "eventDate": "March 12th 2023",
+        "avgTemp": "28°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 5,
+        "yMinutesOnYoutube": 18,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 13th 2023",
+        "avgTemp": "43°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 34,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 14th 2023",
+        "avgTemp": "34°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 76,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 15th 2023",
+        "avgTemp": "39°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 84,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "March 16th 2023",
+        "avgTemp": "51°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 89,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 17th 2023",
+        "avgTemp": "53°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 74,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 18th 2023",
+        "avgTemp": "53°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 5,
+        "yMinutesOnYoutube": 121,
+        "manchesterUnitedWon": "Won",
+        "eventDate": "March 19th 2023",
+        "avgTemp": "40°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 53,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 20th 2023",
+        "avgTemp": "52°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 76,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 21th 2023",
+        "avgTemp": "58°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 11,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 22th 2023",
+        "avgTemp": "50°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 198,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 23th 2023",
+        "avgTemp": "61°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 1,
+        "yMinutesOnYoutube": 103,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 24th 2023",
+        "avgTemp": "53°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 2,
+        "yMinutesOnYoutube": 202,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 25th 2023",
+        "avgTemp": "53°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 3,
+        "yMinutesOnYoutube": 218,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 26th 2023",
+        "avgTemp": "57°F",
+        "jobEffect": false
+    },
+    {
+        "xHappinessRating": 5,
+        "yMinutesOnYoutube": 51,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 27th 2023",
+        "avgTemp": "55°F",
+        "jobEffect": true
+    },
+    {
+        "xHappinessRating": 4,
+        "yMinutesOnYoutube": 0,
+        "manchesterUnitedWon": "Didn't Play",
+        "eventDate": "March 28th 2023",
+        "avgTemp": "46°F",
+        "jobEffect": false
+    }
+]
