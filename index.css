@@ -35,29 +35,39 @@
 
 .pdf-container {
     position: absolute;
-    top: 25%;
-    left: -25%;
+    top: 50%;
+    left: 10%;
     transform: translate(540%, 100%);
     border: 1px solid #d3dff0;
     border-radius: 8px;
-    background-color: white;
-    width: 250px;
-    height: 100px;
+    background-color: #f4f4fe;
+    width: 160px;
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     padding-left: 8px;
-    padding-top: 0px;
     display: flex;
-    align-items: center
+    align-items: center;
+    align-content: space-around;
+
 }
 
 .pdf-icon {
-    fill: rgb(47, 40, 193);
-    transform: translate(-5%, 20%);
-    background-color: #f6fbfe;
-    border: 1.8px solid rgb(127, 172, 226);
-    border-radius: 5px;
+    margin-right: -8px;
+    fill: #6c39aa;
+    stroke: #6c39aa;
+    stroke-width: .5px;
+    padding-top: 8px;
     display: flex;
     align-items: center;
 }
+
+.pdf-text {
+
+    padding-bottom: 8px;
+    color: #4f42ff;
+}
+
 
 
 
@@ -90,6 +100,10 @@ h2 {
 }
 
 h3 {
+    font-family: 'Satoshi-Bold', sans-serif;
+}
+
+h5 {
     font-family: 'Satoshi-Bold', sans-serif;
 }
 
