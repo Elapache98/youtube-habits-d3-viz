@@ -108,7 +108,7 @@ function buildVisualization(dataset) {
         .attr("cy", function (value) {
             return minutesOnYoutube(value.yMinutesOnYoutube);
         })
-        .attr("opacity", 0.75) // Set the opacity of the circle to 50%
+        .attr("opacity", 0.75) // Set the opacity of the circle to 75%
         .attr("fill", function (value) {
             console.log("Average Temperature:", value.avgTemp);
             console.log("Temperature Color:", tempRange(value.avgTemp));
@@ -143,6 +143,7 @@ function buildVisualization(dataset) {
         .attr("y", svgHeight - (margin / 1.8))
         .attr("text-anchor", "middle")
         .text("Happiness level scale");
+
     let xAxisLabel2 = svg.append("text")
         .attr("x", svgWidth / 2)
         .attr("y", svgHeight - (margin / 6))
@@ -196,7 +197,8 @@ function buildVisualization(dataset) {
 
     drawTriangles();
 
-    /***  draws a triangle that will only show where wither manchesterunited variable in dataset is either true or false*/
+    /***  draws a triangle that will only show where whether manchesterunited variable in dataset is either true or false
+     inspiration: https://www.geeksforgeeks.org/d3-js-symboltriangle-symbol/***/
     function triangleSymbol() {
         return d3.symbol()
             .type(d3.symbolTriangle)
