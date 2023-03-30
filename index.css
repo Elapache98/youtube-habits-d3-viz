@@ -52,6 +52,25 @@
 
 }
 
+.pdf-container2 {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(540%, 100%);
+    border: 1px solid #d3dff0;
+    border-radius: 8px;
+    background-color: #f4f4fe;
+    width: 110px;
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+
+}
+
 .pdf-icon {
     margin-right: -8px;
     fill: #6c39aa;
@@ -62,10 +81,12 @@
     align-items: center;
 }
 
+
+
 .pdf-text {
 
     padding-bottom: 8px;
-    color: #4f42ff;
+    color: #f4f3fb;
 }
 
 
