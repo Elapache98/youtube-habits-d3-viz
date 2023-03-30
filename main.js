@@ -1,8 +1,8 @@
 "use strict"
 
 /* Configuration variables: drawing */
-let svgWidth = 600;
-let svgHeight = 600;
+let svgWidth = 575;
+let svgHeight = 575;
 let margin = 50;
 
 /* Resize div to match width of visualization. */
@@ -115,6 +115,22 @@ function buildVisualization(dataset) {
             return tempRange(value.avgTemp);
         })
 
+    let dateLabels = svg.selectAll("text")
+        .data(dataset)
+        .join("text");
+
+    dateLabels.attr("x", function (value) {
+        return happinessRange(value.xHappinessRating);
+    })
+        .attr("y", function (value) {
+            return minutesOnYoutube(value.yMinutesOnYoutube);
+        })
+        .attr("dx", -42)
+        .attr("dy", 12)
+        .attr("font-size", 7)
+        .text(function (value) {
+            return value.eventDate;
+        });
 
 
 
