@@ -246,7 +246,7 @@ function buildVisualization(dataset) {
             .domain([0, 35, 50])
             .range(["#4682B4", "#6495ED", "#CCCCFF"]);
 
-        /*** this defines the rectangles within the scale that are related to the tempRange function  ***/
+        /*** this defines the rectangles within the scale that are related to the tempRange function's domain  ***/
 
         let keyScale = keySvg.selectAll("rect")
             .data(tempRange.range())
