@@ -173,7 +173,7 @@ function buildVisualization(dataset) {
 
 
 
-    /* labels the max value of coordinates on the Y axis */
+    /***  labels the max value of coordinates on the Y axis ***/
 
     let yAxisMaxValue = svg.append("text")
         .attr("x", -margin)
@@ -183,11 +183,11 @@ function buildVisualization(dataset) {
         .text("250")
         .attr("transform", "rotate(-90)");
 
-    /* I learned about the tooltip functionality from previous courses and researched a way to use the tool tip in the 
+    /***  I learned about the tooltip functionality from previous courses and researched a way to use the tool tip in the 
     d3.library. I thought it would make the data more intuitive for viewers. Here the function is just 
     pulling the values of the datasets for each circle and shows the user what these values are when hovered
     source: https://www.pluralsight.com/guides/create-tooltips-in-d3js
-    https://stackoverflow.com/questions/11462029/adding-a-title-attribute-to-svgg-element-in-d3-js */
+    https://stackoverflow.com/questions/11462029/adding-a-title-attribute-to-svgg-element-in-d3-js ***/
     circles.append("title")
         .text(function (value) {
             return "Date: " + value.eventDate + "\nMinutes on Youtube: " + value.yMinutesOnYoutube + "\nOutcome of Manchester Utd game: " + value.manchesterUnitedWon + "\nAverage Temperature: " + value.avgTemp;
@@ -222,13 +222,6 @@ function buildVisualization(dataset) {
                     return "white";
                 }
             });
-
-
-
-
-
-
-
 
         /*** creates a separate SVG element for the key ***/
         let keySvg = d3.select("body")

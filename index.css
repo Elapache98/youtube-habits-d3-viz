@@ -36,12 +36,12 @@
 .pdf-container {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 0%;
     transform: translate(540%, 100%);
     border: 1px solid #d3dff0;
     border-radius: 8px;
     background-color: #f4f4fe;
-    width: 160px;
+    width: 190px;
     height: 24px;
     padding-top: 4px;
     padding-bottom: 4px;
