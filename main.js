@@ -72,7 +72,7 @@ function buildVisualization(dataset) {
     drawRectangles();
 
     function drawRectangles() {
-        // Select all data points and bind the data
+        /***  Select all data points and bind the data ***/
         let rects = svg.selectAll(".rectangle")
             .data(dataset.filter(function (value) {
                 return value.jobEffect === true;
@@ -114,6 +114,8 @@ function buildVisualization(dataset) {
             console.log("Temperature Color:", tempRange(value.avgTemp));
             return tempRange(value.avgTemp);
         })
+
+    /*** function below is creating data labels as text for the circles based on the value of the eventDate variable ***/
 
     let dateLabels = svg.selectAll("text")
         .data(dataset)
@@ -201,11 +203,11 @@ function buildVisualization(dataset) {
             .size(32)();
     }
     function drawTriangles() {
-        /*** Selects all data point and binds the data within the parameter of mancesterUnitedWon's value. If it falls on either prerequisite ex. true or false then it's given a different color on wheter the value is true or false */
+        /*** Selects all data point and binds the data within the parameter of mancesterUnitedWon's value. If it falls on either prerequisite ex. true or false then it's given a different color on wheter the value is true or false ***/
         let triangles = svg.selectAll(".triangle")
             .data(dataset.filter(function (value) { return value.manchesterUnitedWon === "Won" || value.manchesterUnitedWon === "Lost"; }));
 
-        // Create new triangles for any data points that don't have a corresponding triangle yet
+        /***  Create new triangles for any data points that don't have a corresponding triangle yet ***/
         triangles.enter()
             .append("path")
             .attr("class", "triangle")
